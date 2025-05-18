@@ -1,3 +1,4 @@
+---
 # Frontend Mentor - Snap
 
 This is my solution to the [Snap Webpage challenge](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5) on Frontend Mentor. 
@@ -15,8 +16,6 @@ This is my solution to the [Snap Webpage challenge](https://www.frontendmentor.i
 
 ---
 
-
-
 ### Tools Used
 
 - Semantic HTML5
@@ -27,6 +26,7 @@ This is my solution to the [Snap Webpage challenge](https://www.frontendmentor.i
 - Bootstrap
 - Frontend Mentor starter files
 
+---
 ### What I Learned
 
 This project helped me strengthen my front-end development skills, especially in:
@@ -35,4 +35,5 @@ This project helped me strengthen my front-end development skills, especially in
 - Proper use of semantic HTML
 - Structuring files for a scalable project
 
+---
 
