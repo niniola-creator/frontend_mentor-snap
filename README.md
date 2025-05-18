@@ -1,4 +1,4 @@
----
+
 # Frontend Mentor - Snap
 
 
@@ -12,7 +12,6 @@
 - [Solution](https://github.com/niniola-creator/https://niniola-creator.github.io)
 - [Live Site ](https://niniola-creator.github.io)
 
----
 
 ### Tools Used
 
@@ -24,8 +23,7 @@
 - Bootstrap
 - Frontend Mentor starter files
 
----
-### What I Learned
+### What I Learnt
 
 This project helped me strengthen my front-end development skills, especially in:
 - Responsive design principles
@@ -33,5 +31,5 @@ This project helped me strengthen my front-end development skills, especially in
 - Proper use of semantic HTML
 - Structuring files for a scalable project
 
----
+
 
