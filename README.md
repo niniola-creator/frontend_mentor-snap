@@ -7,8 +7,6 @@
 - [Tools Used](#tools-used)
 - [What I Learned](#what-i-learned)
 
----
-
 ### Links
 
 - [Solution](https://github.com/niniola-creator/https://niniola-creator.github.io)
