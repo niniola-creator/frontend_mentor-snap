@@ -1,7 +1,7 @@
 ---
 # Frontend Mentor - Snap
 
-This is my solution to the [Snap Webpage challenge](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5) on Frontend Mentor. 
+
 ## Table of Contents
 - [Links](#links)
 - [Tools Used](#tools-used)
