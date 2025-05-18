@@ -5,7 +5,7 @@
 ## Table of Contents
 - [Links](#links)
 - [Tools Used](#tools-used)
-- [What I Learned](#what-i-learned)
+- [What I Learnt](#what-i-learnt)
 
 ### Links
 
