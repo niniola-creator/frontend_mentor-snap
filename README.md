@@ -7,13 +7,13 @@
 - [Tools Used](#tools-used)
 - [What I Learnt](#what-i-learnt)
 
-### Links
+## Links
 
 - [Solution](https://github.com/niniola-creator/https://niniola-creator.github.io)
 - [Live Site ](https://niniola-creator.github.io)
 
 
-### Tools Used
+## Tools Used
 
 - Semantic HTML5
 - Custom CSS properties
@@ -23,7 +23,7 @@
 - Bootstrap
 - Frontend Mentor starter files
 
-### What I Learnt
+## What I Learnt
 
 This project helped me strengthen my front-end development skills, especially in:
 - Responsive design principles
