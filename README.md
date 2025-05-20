@@ -9,7 +9,7 @@
 
 ## Links
 
-- [Solution](https://github.com/niniola-creator/niniola-creator.github.io)
+- [Solution](https://github.com/niniola-creator/niniola-creator.github.io/blob/main/index.html)
 - [Live Site ](https://niniola-creator.github.io)
 
 
