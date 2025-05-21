@@ -5,7 +5,6 @@
 ## Table of Contents
 - [Links](#links)
 - [Tools Used](#tools-used)
-- [What I Learnt](#what-i-learnt)
 
 ## Links
 
@@ -22,14 +21,5 @@
 - Mobile-first workflow
 - Bootstrap
 - Frontend Mentor starter files
-
-## What I Learnt
-
-This project helped me strengthen my front-end development skills, especially in:
-- Responsive design principles
-- Navigation toggle with JavaScript
-- Proper use of semantic HTML
-- Structuring files for a scalable project
-
 
 
