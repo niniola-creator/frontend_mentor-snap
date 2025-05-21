@@ -2,202 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Snap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snap | Frontend Mentor</title>
   <link rel="icon" type="image/icon" href="favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <style>
-    *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      
-    }
-
-
-    *,::after,::before {
-      box-sizing: border-box
-    }
-
-
-    body {
-      font-family: 'Epilogue';
-      background-color: hsl(0, 0%, 98%);
-      
-      
-    }
-
-    .container{
-      position: relative;
-      width: 100%;
-      height: auto;
-    }
-
-    p{
-      font-size: 18px;
-      font-weight: 500;
-      color: hsl(0, 0%, 41%);
-      text-align: justify;
-        
-    }
-    .navbar {
-      background-color: #fff; 
-      transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .navbar.shadow {
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .nav-link, span{
-      color: hsl(0, 0%, 41%);
-      font-size: medium;
-    }
-
-    #button{
-      color: hsl(0, 0%, 41%);
-      font-size: medium;
-      display: flex;
-    }
-
-    #button:hover{
-      color: #fff;
-    } 
-
-    #heading{
-      color: hsl(0, 0%, 8%);
-      text-align: left;
-      font-size: 3.5rem;
-      width: 100%;
-      font-weight: 500;
-      letter-spacing: 0.15rem;
-      padding: 0; 
-      margin: 0 auto;
-      
-    }
-
-    #texts {
-      font-size: 1rem;
-      line-height: 1.8rem;
-    }
-
-    #desktop-img{
-      position: absolute;
-      right: 100px;
-      bottom: 0;
-      width: 400px;
-      margin-top: 110px;
-
-    }
-
-    #mobile-img{
-      display: none;
-    }
-
-    .nav-item:hover,.nav-link:hover{
-      color: #19d3da;
-        
-    }
-
-    #buttons:hover{
-      background-color: transparent;
-      color: black;
-      font-weight: bold;
-        
-    }
- 
-
-    form.d-flex {
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    #img img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 10px;
-    }
-
-
-    @media (max-width: 991px) {
-      
-      .navbar-nav {
-        text-align: center;
-      }
-
-      form.d-flex {
-        justify-content: center;
-        margin-top: 1rem;
-      }
-
-      #button {
-        margin-left: 0;
-        margin-top: 0.5rem;
-      }
-
-      #heading {
-      text-align: center;
-      font-size: 1.9rem;
-      
-      }
-
-      br{
-        display: none;
-      }
-
-      #texts {
-        font-size: 1rem;
-        text-align: center;
-      }
-
-      .text-start {
-        text-align: start !important;
-      }
-
-      #buttons {
-        display: block;
-        margin: 1rem auto;
-      }
-
-      #img {
-        text-align: center;
-      }
-
-      #desktop-img {
-        display: none;
-      }
-
-      #mobile-img {
-        display: block;
-      }
-      
-    }
-
-  </style>
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <nav class="navbar navbar-expand-lg sticky-top">
+  
+  <nav class="navbar navbar-expand-lg bg-white sticky-top py-3">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-            <img class="mx-4 mt-2" src="logo.svg">
-      </a>    
+      <a class="navbar-brand mx-4 mt-2" href="#"><img  src="logo.svg" alt="Snap logo "></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown ">
             <a class="nav-link"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Features<img class="mx-1" src="icon-arrow-down.svg"></a>
            
-          <ul class="dropdown-menu shadow-lg">
+          <ul class="dropdown-menu shadow">
               <li><a class="dropdown-item " href="#"><img class="mb-1 pe-1 me-1" src="icon-todo.svg">Todo List</a></li>
               <li><a class="dropdown-item " href="#"><img class="mb-1 pe-1 me-1" src="icon-calendar.svg">Calendars</a></li>
               <li><a class="dropdown-item " href="#"><img class="mb-1 pe-1 me-2 " src="icon-reminders.svg">Reminders</a></li>
@@ -209,7 +39,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company<img class="mx-1" src="icon-arrow-down.svg"></a>
                     
-            <ul class="dropdown-menu shadow-lg ">
+            <ul class="dropdown-menu shadow ">
               <li class="items "><a class="dropdown-item" href="#">History</a></li>
               <li class="items "><a class="dropdown-item" href="#">Our team</a></li>
               <li class="items "><a class="dropdown-item" href="#">Blog</a></li>
@@ -223,59 +53,43 @@
             <a class="nav-link mx-2" href="#">About</a>
           </li>  
         </ul>
-        <form class="d-flex justify-content-lg-end justify-content-center mx-5 mt-lg-0 flex-column flex-lg-row align-items-center gap-2" role="button">
-          <span class="navbar nav-item fw-medium mx-4">Login</span>
-          <button class="btn btn-outline-dark rounded-3 px-3 fw-medium" id="button" type="submit">Register</button>
-        </form>
+    
+        <div class="span d-flex flex-column flex-lg-row gap-2 align-items-center">
+          <a href="#" class="nav-link mx-4">Login</a>
+          <a href="#" class="btn btn-outline-dark rounded-3 px-4 ">Register</a>
+        </div>
+      </div>
     </div>
   </nav>
 
-     
-      
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-6 col-sm-6">
-        <div class="row order-1 order-lg-2 py-5" >
-          <img id="desktop-img" class="img-fluid pb-5" src="image-hero-desktop.png">
-          <img id="mobile-img" class="img-fluid" src="image-hero-mobile.png">
-        </div>
+  
+  <section class="container">
+    <div class="row flex-column-reverse flex-lg-row align-items-center">
+      <div class="col-lg-6 text-center text-lg-start mt-5">
+        <h1 class="display-3 fw-bold" id="heading">Make <br> remote work</h1>
+        <p class="mt-4 text-secondary fw-medium">
+          Get your team in sync, no matter your location.<br> Streamline processes,
+          create team rituals, and <br> watch productivity soar.
+        </p>
+        <a href="#" class="btn btn-dark rounded-3 px-3  mt-4" id="buttons">Learn more</a>
 
-        <div class="text-start mt-5">
-          <h2 id ="heading" class="display-1">
-            <strong>Make<br> remote work</strong></h2>
+        
+        <div class="mt-5">
+          <img src="client-databiz.svg" alt="databiz" class="img-fluid logo " width="80px">
+          <img src="client-audiophile.svg" alt="audiophile" class="img-fluid logo mx-2" width="70px">
+          <img src="client-meet.svg" alt="meet" class="img-fluid logo mx-2" width="80px">
+          <img src="client-maker.svg" alt="maker" class="img-fluid logo mx-2" width="80px">
         </div>
-               
-        <div class ="text">              
-          <p id= "texts" class=" mt-5">Get your team in sync, no matter your location.<br> Streamline processes, create team rituals, and<br> watch productivity soar.</p>
-          <button type="button" id="buttons" class="btn btn-dark mt-4 mb-4 rounded-3 px-3">Learn more</button>
-        </div>
-        <div class="img-fluid mt-5" id="img"> 
-          <img src="client-databiz.svg" class="mx-2 img-fluid" width="60px" alt="...">
-          <img src="client-audiophile.svg" class="mx-2 img-fluid" width="60px" alt="...">
-          <img src="client-meet.svg" class="mx-2 img-fluid" width="60px" alt="...">
-          <img src="client-maker.svg" class=" mx-2 img-fluid" width="60px" alt="...">                
-        </div>      
       </div>
-    </div>  
-  </div>
 
-    
-     
       
-    
-      
-  <script>
-    window.addEventListener('scroll', function () {
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 10) {
-      navbar.classList.add('shadow');
-    } else {
-      navbar.classList.remove('shadow');
-    }
-  });
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-      
+      <div class="col-lg-6 text-center py-3">
+        <img src="image-hero-mobile.png" class="img-fluid d-block d-lg-none desktop-img" alt="Image Mobile">
+        <img src="image-hero-desktop.png" class="img-fluid d-none d-lg-block mobile-img h-75 w-75 mx-5" alt="Image Desktop">
+      </div>
+    </div>
+  </section>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>  
 </body>
 </html>
