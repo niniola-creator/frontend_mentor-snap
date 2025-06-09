@@ -31,6 +31,6 @@ It reminded me how important it is to slow down and double-check spacing, font s
 
 ## Links
 
-You can check out the solution —> [here](https://github.com/niniola-creator/niniola-creator.github.io/blob/main/index.html) and [live version](https://niniola-creator.github.io)
+You can check out the solution —> [here](https://github.com/niniola-creator/niniola-creator.github.io/blob/main/index.html) and [live version](https://frontendmentor-snap.netlify.app/)
 
  
